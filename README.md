@@ -22,6 +22,7 @@ Clone the repository to your local machine:
 Copy code
 git clone https://github.com/your-username/news-scraper.git
 cd news-scraper
+
 Run the script:
 
 bash
@@ -35,12 +36,8 @@ Script Explanation
 news_scraper.py: Python script that fetches business news articles from the specified URL using requests and parses HTML content with BeautifulSoup.
 
 The script simulates a browser request using custom headers to fetch the webpage content.
-
 It searches for the <div> element with class nation to locate the section containing business news articles.
-
 For each article found <div> with class articles, it extracts the title <h2> with class title and publication date <div> with class date.
-
 Extracted data is stored in a CSV file business_news.csv with columns Title of article and Date.
-
 
 Contributions are welcome! Feel free to fork the repository, create pull requests, or open issues for any suggestions or improvements.
