@@ -38,9 +38,9 @@ The script simulates a browser request using custom headers to fetch the webpage
 
 It searches for the <div> element with class nation to locate the section containing business news articles.
 
-For each article found (<div> with class articles), it extracts the title (<h2> with class title) and publication date (<div> with class date).
+For each article found <div> with class articles, it extracts the title <h2> with class title and publication date <div> with class date.
 
-Extracted data is stored in a CSV file (business_news.csv) with columns Title of article and Date.
+Extracted data is stored in a CSV file business_news.csv with columns Title of article and Date.
 
 
 Contributions are welcome! Feel free to fork the repository, create pull requests, or open issues for any suggestions or improvements.
