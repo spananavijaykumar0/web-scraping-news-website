@@ -1,4 +1,5 @@
 News Scraper
+
 This Python script scrapes business news articles from the Indian Express website and saves the extracted data into a CSV file.
 
 Requirements
