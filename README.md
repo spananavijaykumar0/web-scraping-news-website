@@ -32,9 +32,7 @@ Output:
 
 The script will scrape business news articles from the Indian Express website and save the data into a CSV file named business_news.csv.
 Script Explanation
-
 news_scraper.py: Python script that fetches business news articles from the specified URL using requests and parses HTML content with BeautifulSoup.
-
 The script simulates a browser request using custom headers to fetch the webpage content.
 It searches for the <div> element with class nation to locate the section containing business news articles.
 For each article found <div> with class articles, it extracts the title <h2> with class title and publication date <div> with class date.
