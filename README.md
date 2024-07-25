@@ -3,8 +3,11 @@ News Scraper
 This Python script scrapes business news articles from the Indian Express website and saves the extracted data into a CSV file.
 
 Requirements
+
 I have used anaconda notebook which had the requests and BeautifulSoup libraries.
+
 if your using Python 3.x
+
 Required Python packages:
 requests
 BeautifulSoup
@@ -28,6 +31,7 @@ Output:
 
 The script will scrape business news articles from the Indian Express website and save the data into a CSV file named business_news.csv.
 Script Explanation
+
 news_scraper.py: Python script that fetches business news articles from the specified URL using requests and parses HTML content with BeautifulSoup.
 
 The script simulates a browser request using custom headers to fetch the webpage content.
@@ -38,5 +42,5 @@ For each article found (<div> with class articles), it extracts the title (<h2> 
 
 Extracted data is stored in a CSV file (business_news.csv) with columns Title of article and Date.
 
-Contributing
+
 Contributions are welcome! Feel free to fork the repository, create pull requests, or open issues for any suggestions or improvements.
